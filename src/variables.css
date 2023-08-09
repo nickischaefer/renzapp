@@ -1,0 +1,26 @@
+
+:root{
+
+
+    /* Colors */
+    --color-white: white;
+    --color-black: black;
+    --color-backgroundgrey: #3E404D;
+    --color-lightgrey: #C1C1C5;
+    --color-mediumgrey: #595B65;
+    --color-darkgrey: #30323E;
+    --color-active: #FEE502;
+    
+    
+    
+    
+    /* Sizes */
+    --max-width: 480px;
+    
+    /* Font Sizes */
+    --description-size: 11px;
+    --body-size: 14px;
+    --h3-size: 18px;
+    --h1-size: 62px;
+    
+    }
