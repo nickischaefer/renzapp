@@ -2,6 +2,7 @@ import React from 'react'
 import { faPenToSquare } from '@fortawesome/free-regular-svg-icons'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {editIcon} from './edit-icon.svg'
 import { EditPlayer } from './EditPlayer'
 
 
@@ -80,6 +81,7 @@ export const Player = ({playername, deletePlayer, editPlayer, editWert, gameOn})
 
       {gameOn === false &&
       <div className='icons'>
+        <img src='edit-icon.svg'/>
         <FontAwesomeIcon icon={faPenToSquare} className='icon-style' onClick={() => editPlayer(playername.id)} />
         <FontAwesomeIcon icon={faTrash} className='icon-style' onClick={() => deletePlayer(playername.id)}/>
       </div>}
