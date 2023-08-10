@@ -11,8 +11,8 @@ export const EditPlayer = ({editPlayer, playername}) => {
   return (
     <form className='PlayerForm' onSubmit={handleSubmit}>
 
-    <input type='text' className='player-input' value={value} placeholder='Update Spielername' onChange={(e) => setValue(e.target.value)}/>
-    <button type='submit' className='passive-btn'>Spieler updaten</button>
+    <input type='text' className='player-input' value={value} placeholder='Name' onChange={(e) => setValue(e.target.value)}/>
+    <button type='submit' className='passive-btn'>Name ändern</button>
 
     </form>
   )

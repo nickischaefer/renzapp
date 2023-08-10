@@ -12,8 +12,8 @@ export const PlayerForm = ({addPlayer}) => {
     <form className='PlayerForm'>
 
     <input type='text' className='player-input' value={value} 
-    placeholder='Spielername' onChange={(e) => setValue(e.target.value)}/>
-    <button type='submit' className='passive-btn' onClick={handleSubmit}>Spieler hinzufügen</button>
+    placeholder='Name' onChange={(e) => setValue(e.target.value)}/>
+    <button type='submit' className='passive-btn' onClick={handleSubmit}>Spielt mit!</button>
 
     </form>
     

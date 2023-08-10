@@ -55,7 +55,7 @@ export const Player = ({playername, deletePlayer, editPlayer, editWert, gameOn})
             handleChangeInput(evt,4)
           }}>
           </input>
-          <p className='Description'>❤️ König</p>
+          <p className='Description'>❤ König</p>
         </div>
 
         <div className='Columns'>

@@ -111,9 +111,9 @@ h2 {
 
 .Description {
   color: var(--color-lightgrey);
-  align-items: top;
   font-size: var(--description-size);
   text-align: center;
+  vertical-align: middle;
   padding-top: 4px;
 }
 
