@@ -226,12 +226,13 @@ h2 {
 @media (max-width: 600px) {
 
   body {
-    padding: 40px;
+    top-padding: 40px;
   }
 
   .Wrapper {
     /* min-width: 10px; */
     min-width: 346px;
+    max-width: 346px;
   }
 
   .Player {
