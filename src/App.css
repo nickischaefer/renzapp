@@ -251,6 +251,5 @@ h2 {
     display: grid;
     grid-template-areas: "summary summary";
     grid-template-columns: 1fr 1fr;
-  
   }
 }

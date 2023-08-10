@@ -301,7 +301,7 @@ export const Wrapper = () => {
 
       {players.length >= 1 && players.length < 3 && players.length <= 6 &&
         <div className='spielInfo'>
-          <p>{"Mindestens 3 Spielende"}</p>
+          <p>{"Mindestens 3 Spielende!"}</p>
         </div>}
 
       {spielStart === false && players.length >= 3 && players.length <= 6 && <button type='submit' className='active-btn' onClick={spielStartHandler}>Spiel starten</button>}
