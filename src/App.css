@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 h1 {
@@ -212,10 +213,7 @@ h2 {
 
 
 @media (max-width: 600px) {
-  body {
-    padding-top: 40px;
 
-  }
 
   .Wrapper {
     min-width: 10px;

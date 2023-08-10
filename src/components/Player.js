@@ -81,7 +81,6 @@ export const Player = ({playername, deletePlayer, editPlayer, editWert, gameOn})
 
       {gameOn === false &&
       <div className='icons'>
-        <img src='edit-icon.svg'/>
         <FontAwesomeIcon icon={faPenToSquare} className='icon-style' onClick={() => editPlayer(playername.id)} />
         <FontAwesomeIcon icon={faTrash} className='icon-style' onClick={() => deletePlayer(playername.id)}/>
       </div>}
