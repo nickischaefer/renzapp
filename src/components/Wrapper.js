@@ -284,7 +284,7 @@ export const Wrapper = () => {
       </div> 
 
       <div className='summaryText'>
-        <p>{"1. bei Renz"}</p>
+        <p>{"max"}</p>
 
         {SumCol6 <= maxRenz &&
           <p className='black'> {"+" + highestRenz}</p>}
@@ -301,7 +301,7 @@ export const Wrapper = () => {
 
       {players.length >= 1 && players.length < 3 && players.length <= 6 &&
         <div className='spielInfo'>
-          <p>{"Mindestens 3 Spieler"}</p>
+          <p>{"Mindestens 3 Spielende"}</p>
         </div>}
 
       {spielStart === false && players.length >= 3 && players.length <= 6 && <button type='submit' className='active-btn' onClick={spielStartHandler}>Spiel starten</button>}

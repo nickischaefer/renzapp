@@ -69,7 +69,7 @@ h2 {
   align-items: center;
   background: var(--color-darkgrey);
   box-shadow: 0px 0px 8px var(--color-darkgrey);
-  padding: 8px 8px 4px;
+  padding: 8px;
   border-radius: 5px;
   margin-bottom: 12px;
   min-height: 48px;
@@ -152,6 +152,7 @@ h2 {
 .Summary {
   grid-area: summary;
   font-size: var(--description-size);
+  line-height: 140%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -239,7 +240,7 @@ h2 {
     background: var(--color-darkgrey);
     box-shadow: 0px 0px 8px var(--color-darkgrey);
     color: var(--color-white);
-    padding: 8px 8px 4px;
+    padding: 8px;
     border-radius: 5px;
     margin-bottom: 12px;
     width: 100%;
